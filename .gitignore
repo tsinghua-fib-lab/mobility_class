@@ -1,0 +1,10 @@
+test*
+cache/
+*.ipynb*
+*.ipynb*/
+*pycache*
+*pycache*/
+dist/
+*egg-info/
+__*
+docs/

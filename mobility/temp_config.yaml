@@ -1,0 +1,31 @@
+llm_request:
+  text_request:
+    request_type: qwen
+    api_key: xxx
+    model: qwen-turbo
+  img_understand_request:
+    request_type: qwen
+    api_key: xxx
+    model: qwen-vl-chat-v1
+  img_generate_request:
+    request_type: qwen
+    api_key: xxx
+    model: stable-diffusion-xl
+
+citysim_request:
+  simulator: 
+    server: https://localhost:8081
+  map_request:
+    mongo_coll: map_beijing_extend_20240205
+    cache_dir: ./cache
+  route_request: 
+    server: http://api-opencity-2x.fiblab.net:58082
+  streetview_request:
+    engine: baidumap
+    mapAK: xxx
+
+apphub_request:
+  hub_url: https://localhost:8080
+  app_id: xxx
+  app_secret: xxx
+  profile_image: icon.png
